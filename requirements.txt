@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+lightgbm
+scipy
+joblib
+jupyter
+pysr
+shap

@@ -1,0 +1,22 @@
+{
+    "input_bounds": {
+        "energy": {"min": 2.60, "max": 4.60},
+        "angle_rad": {"min": 0.52, "max": 1.31},
+        "coupling": {"min": 0.40, "max": 1.60},
+        "strength": {"min": 0.81, "max": 3.80},
+        "porosity": {"min": 0.0001, "max": 0.35},
+        "gravity": {"min": 1.62, "max": 9.81},
+        "atmosphere": {"min": 0.05, "max": 0.85},
+        "shape_factor": {"min": 0.75, "max": 1.35}
+    },
+    "constraints": {
+        "P80": {"min": 50, "max": 150},
+        "fines_frac": {"min": 0.01, "max": 0.30},
+        "oversize_frac": {"min": 0.01, "max": 0.50},
+        "R95": {"min": 50, "max": 500},
+        "R50_fines": {"min": 30, "max": 400},
+        "R50_oversize": {"min": 10, "max": 200}
+    },
+    "n_solutions": 20,
+    "max_attempts": 1000
+}

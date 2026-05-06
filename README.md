@@ -7,6 +7,13 @@ The challenge has two parts:
 
 Please read the following challenge descriptions carefully.
 
+### Data submission files in this repository
+
+| Output | Location |
+|--------|----------|
+| Forward prediction submission (`prediction_submission.csv`) | [`forward_prediction/prediction_submission.csv`](forward_prediction/prediction_submission.csv) |
+| Inverse design results (inputs + model-predicted ejecta per solution) | [`inverse_predict/inverse_predictions.csv`](inverse_predict/inverse_predictions.csv) |
+
 ---
 
 ## Reproduction and environment (this codebase)
